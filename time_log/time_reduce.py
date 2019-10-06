@@ -21,6 +21,9 @@ for line in sys.stdin:
            
 
 
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 
 ip_dict ={}
 pat = re.compile('(?P<ip>\d+\.\d+\.\d+\.\d+).*?(?P<hour>(?<=:)\d\d)')
